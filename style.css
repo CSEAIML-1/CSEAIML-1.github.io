@@ -158,6 +158,9 @@ nav h1{
     border-radius: 4px;
     cursor: pointer;
 }
+.buy-btn a p{
+    color: white;
+}
 
 section h2{
     text-align: center;
