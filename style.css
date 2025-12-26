@@ -112,6 +112,13 @@ header i{
   padding:15px;
 }
 
+.item1{
+  background-color: #81fcd3;
+}
+
+.item2{
+  background-color: #76d8fc;
+}
 .product-grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
