@@ -17,7 +17,7 @@ header i{
 }
 
 .navbar{
-  background:#2874f0;
+  background:#ffffff;
   color:white;
   padding:10px 15px;
   display:flex;
@@ -30,12 +30,15 @@ header i{
 .logo{
   font-size:20px;
   font-weight:700;
+  width: auto;
+  height: auto;
 }
 
 .search{
   padding:6px;
   width:300px;
-  border:none;
+  border:1px solid #ccc;
+  border-radius: 8px;
 }
 
 .nav-links{
@@ -50,14 +53,30 @@ header i{
   font-weight:500;
 }
 
+
 .hamburger{
   display:none;
   font-size:24px;
   cursor:pointer;
+  color: #aaa;
 }
 
 #menu-toggle{
   display:none;
+}
+.search-bar{
+  text-align: start;
+  position: relative;
+}
+
+.login-btn a, .cart-btn a{
+  color:#000000;
+  text-decoration:none;
+  font-weight:500;
+  background-color:#ffffff;
+}
+.login-btn i, .cart-btn i{
+  color: #000000;
 }
 
 .category-bar{
@@ -302,16 +321,16 @@ header i{
   }
 }
 
-@media(max-width:600px){
+@media(max-width:768px){
   .hamburger{
-    display:block;
+    display:flex;
   }
   .nav-links{
     position:absolute;
     top:55px;
     right:0;
     background:#2874f0;
-    flex-direction:column;
+    flex-direction:row;
     width:100%;
     display:none;
     padding:10px 0;
@@ -324,6 +343,11 @@ header i{
   }
   .product-grid{
     grid-template-columns:1fr;
+  }
+  .login-btn, .cart-btn{
+   background-color: #2874f0;
+   color: #ffffff;
+   justify-content: end;
   }
 }
 @media(max-width:768px){
