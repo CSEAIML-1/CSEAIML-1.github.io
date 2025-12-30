@@ -11,21 +11,40 @@
 <body>
 
 <header class="navbar">
-  <img src="images\logo.svg" class="logo-img" alt="Flipkart">
+
+  <img src="images/logo.svg" class="logo-img" alt="Flipkart">
+
+  <div class="search-bar">
+    <i class="fa fa-search"></i>
+    <input type="text" placeholder="Search for Products, Brands and More">
+  </div>
+
+  <div class="nav-links">
+
+    <a href="login.html" class="nav-item">
+      <i class="fa-regular fa-user"></i>
+      Login
+    </a>
+
+    <a href="cart.html" class="nav-item">
+      <i class="fa fa-shopping-cart"></i>
+      Cart
+    </a>
+
+    <a href="seller.html" class="nav-item seller">
+      <i class="fa fa-store"></i>
+      Become a Seller
+    </a>
+
+    <span class="nav-item dots">⋮</span>
+  </div>
 
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="hamburger">☰</label>
 
-  <div class="nav-links">
-    <div class="search-bar">
-      <i class='fa fa-search'></i>
-    <input type="text" class="search" placeholder="Search for products"></div>
-    <button class="login-btn">
-    <a href="login.html"><i class="fa-regular fa-user"></i>Login</a></button>
-     <button class="cart-btn">
-    <a href="cart.html"><i class="fa fa-store"></i>Cart</a></button>
-  </div>
 </header>
+
+
 
 <div class="category-bar">
 

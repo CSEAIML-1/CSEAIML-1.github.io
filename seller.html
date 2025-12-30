@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sell Online with Flipkart</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#ffffff;
+  color:#333;
+}
+
+.top-info{
+  background:#f7f7f7;
+  text-align:center;
+  padding:8px;
+  font-size:14px;
+}
+
+.navbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 30px;
+  border-bottom:1px solid #ddd;
+}
+
+.nav-left{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+.nav-left img{
+  height:38px;
+}
+
+.nav-left a{
+  text-decoration:none;
+  color:#333;
+  font-size:15px;
+}
+
+.nav-right{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.login{
+  text-decoration:none;
+  color:#333;
+}
+
+.start-btn{
+  background:#ffcc00;
+  border:none;
+  padding:10px 18px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.breadcrumb{
+  padding:15px 30px;
+  font-size:14px;
+  color:#666;
+}
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:30px;
+}
+
+.hero h1{
+  font-size:36px;
+  font-weight:700;
+}
+
+.hero img{
+  max-width:45%;
+  border-radius:10px;
+}
+
+.features{
+  margin:40px 30px;
+  background:#f5faff;
+  padding:30px;
+  border-radius:15px;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:20px;
+  text-align:center;
+}
+
+.feature{
+  font-size:14px;
+}
+
+.feature span{
+  display:block;
+  font-size:24px;
+  color:#2874f0;
+  margin-bottom:10px;
+}
+
+.stories{
+  padding:40px 30px;
+}
+
+.stories h2{
+  font-size:32px;
+  color:#2874f0;
+  margin-bottom:25px;
+}
+
+.story-card{
+  background:#f5faff;
+  border-radius:20px;
+  padding:30px;
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.story-card img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border:4px solid #ffcc00;
+}
+
+.story-text h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.story-text p{
+  font-size:15px;
+  line-height:1.6;
+}
+
+.footer{
+  background:#172337;
+  color:#fff;
+  padding:30px 20px;
+  margin-top:20px;
+}
+
+.footer-row{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.footer-col h4{
+  font-size:14px;
+  margin-bottom:10px;
+  color:#f1f1f1;
+}
+
+.footer-col p{
+  font-size:12px;
+  margin-bottom:6px;
+  color:#ccc;
+}
+
+.footer-bottom{
+  text-align:center;
+  margin-top:20px;
+  font-size:12px;
+  color:#aaa;
+}
+
+.help-btn{
+  color:white;
+  background: transparent;
+  align-self: center;
+  border: none;
+}
+.help-btn i{
+  color: rgb(164, 164, 0);
+}
+
+@media(max-width:768px){
+  .hero{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .hero img{
+    max-width:90%;
+    margin-top:20px;
+  }
+
+  .features{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .navbar{
+    flex-direction:column;
+    gap:10px;
+  }
+}
+
+@media(max-width:768px){
+  .footer-row{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:480px){
+  .footer-row{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="top-info">
+  Existing Seller? Explore our product recommendations with Dhamaka Selection
+</div>
+
+<div class="navbar">
+  <div class="nav-left">
+    <img src="images/logo.svg" alt="Flipkart Seller Hub">
+    <a href="#">Sell Online ▾</a>
+    <a href="#">Fees and Commission ▾</a>
+    <a href="#">Grow ▾</a>
+    <a href="#">Learn ▾</a>
+    <a href="#">Shopsy</a>
+  </div>
+
+  <div class="nav-right">
+    <a href="login.html" class="login">Login</a>
+    <button class="start-btn">Start Selling</button>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  Home &gt; Sell Online
+</div>
+
+<div class="hero">
+  <h1>Sell Online with Flipkart</h1>
+  <img src="images\sell-baner.webp" alt="Seller Image">
+</div>
+
+<div class="features">
+  <div class="feature">
+    <span>👥</span>
+    45 crore+ Flipkart customers
+  </div>
+  <div class="feature">
+    <span>💳</span>
+    7* days secure & regular payments
+  </div>
+  <div class="feature">
+    <span>📉</span>
+    Low cost of doing business
+  </div>
+  <div class="feature">
+    <span>📞</span>
+    One click Seller Support
+  </div>
+  <div class="feature">
+    <span>🛍️</span>
+    Access to Big Billion Days & more
+  </div>
+</div>
+
+<div class="stories">
+  <h2>Seller Success Stories</h2>
+
+  <div class="story-card">
+    <img src="images\sample-person1.webp" alt="Seller">
+    <div class="story-text">
+      <h3>Dinesh Kumar, Kemei</h3>
+      <p>
+        On Flipkart, your listings are live in less than 2 hours and you can start selling anywhere in India.
+        I started my business with Flipkart and scaled it successfully.
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-row">
+    <div class="footer-col"><h4>ABOUT</h4><p>Contact Us</p><p>About Us</p></div>
+    <div class="footer-col"><h4>HELP</h4><p>Payments</p><p>Shipping</p></div>
+    <div class="footer-col"><h4>POLICY</h4><p>Privacy</p><p>Security</p></div>
+    <div class="footer-col"><h4>SOCIAL</h4><p>Facebook</p><p>Twitter</p></div>
+  </div>
+  <button class="help-btn">
+    <i class="fa-regular fa-circle-question"></i>
+    Help Center</button><br>
+  <p class="footer-bottom">© 2025 Flipkart | Dhruv Kumar Sharma</p>
+</footer>
+
+
+</body>
+</html>
